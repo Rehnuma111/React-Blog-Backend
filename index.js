@@ -12,9 +12,7 @@ const port = process.env.PORT;
 
 
 //middleware
-app.use(cors({
-  origin: 'http://localhost:3000'
-}));
+app.use(cors({ origin: ["http://localhost:3000", "https://rehnuma-react-blog.onrender.com"] }));
 
 
 
